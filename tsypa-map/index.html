@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Map</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/gmap.js"></script>
+</head>
+<body>
+	<div class="wrapper">
+		<h1 class="h1">ТАМ, ДЕ ЦИПА ГУЛЯЄ</h1>
+		<div id="map"></div>
+		<div class="adresses-wrapper">
+			<ul class="cities">
+				<li class="all">Все заведения</li>
+				<li class="kyiv active">Киев</li>
+				<li class="zkp">Закарпатье</li>
+			</ul>
+			<ul>
+				<li class="adress-block zkp">
+					<img src="img/small-logo-1.png" alt="" class="small-logo">
+					<div class="name">
+						ГАГАРІН ТА БОКОРАШ
+					</div>
+					<div class="adress" data-coords="48.153057, 24.280936" data-zoom="19">
+						вул. Центральна, 163 c.Кваси, Закарпатська область
+					</div>
+					<a href="http://google.com" class="link">Перейти на сторінку закладу</a>
+					<div class="window-markup">
+						<div class="adress-markup">
+							<img src="img/icon-map.png" alt="">
+							<p>Text text text</p>
+						</div>
+					</div>
+				</li>
+				<li class="adress-block kyiv">
+					<img src="img/small-logo-1.png" alt="" class="small-logo">
+					<div class="name">
+						ГАГАРІН ТА БОКОРАШ
+					</div>
+					<div class="adress">
+						м. Київ вул. Велика Васильківська, 126
+					</div>
+					<a href="http://google.com" class="link">Перейти на сторінку закладу</a>
+					<div class="window-markup">
+						<div class="adress-markup">
+							<img src="img/icon-map.png" alt="">
+							<p>Text text text</p>
+						</div>
+					</div>
+				</li>
+				<li class="adress-block zkp">
+					<img src="img/small-logo-1.png" alt="" class="small-logo">
+					<div class="name">
+						ГАГАРІН ТА БОКОРАШ
+					</div>
+					<div class="adress" data-coords="48.152892, 24.280673" data-zoom="19">
+						Урощище «Васкул» с. Кваси Закарпатська область
+					</div>
+					<a href="http://google.com" class="link">Перейти на сторінку закладу</a>
+					<div class="window-markup">
+						<div class="adress-markup">
+							<img src="img/icon-map-hover.png" alt="">
+							<p>Text text text</p>
+						</div>
+					</div>
+				</li>
+				<li class="adress-block kyiv">
+					<img src="img/small-logo-1.png" alt="" class="small-logo">
+					<div class="name">
+						ГАГАРІН ТА БОКОРАШ
+					</div>
+					<div class="adress">
+						Киев, Довженко 3
+					</div>
+					<a href="http://google.com" class="link">Перейти на сторінку закладу</a>
+					<div class="window-markup">
+						<div class="adress-markup">
+							<img src="img/icon-map-hover.png" alt="">
+							<p>Text text text</p>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDtlgf8lq9grpuNxbmtAVyW2HsSGITabjI&callback=initMap"
+        async defer></script>
+
+</body>
+</html>
